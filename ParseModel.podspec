@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
   s.source_files = 'ParseModel/**/*.{h,m}'
   s.requires_arc = true
   s.dependency 'Parse'
-  s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/Parse"' }
+  s.xcconfig = { "FRAMEWORK_SEARCH_PATHS" => '"$(PODS_ROOT)/Parse"' }
 end
